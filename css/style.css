@@ -5,11 +5,18 @@ body {
   background-attachment: fixed;
 }
 
+.cuerpo {
+  background-color: #f2f7fc;
+  margin-top: 5px;
+  padding-top: 1px;
+  border-radius: 2px;
+  }
+
 h2, h1 {
   text-align: left;
   font-weight: bolder;
-  color: red;
-  text-shadow: 1px, 1px, gray;
+  color: #054c7c;
+  text-shadow: 2px, 2px, gray;
 }
 
 .view {
@@ -37,6 +44,73 @@ h2, h1 {
   background-color: #ffd051;
  }
 
+/* Footer color for sake of consistency with Navbar */
+.page-footer {
+  background-color: #1C2331; }
+
+  /*Botón up*/
+.boton-subir.open {
+  animation-name: bounceInUp; }
+
+.boton-subir.close {
+  animation-name: fadeOutDown; }
+
+.boton-subir:focus {
+  outline: none; }
+
+@keyframes bounceInUp {
+  from, 60%, 75%, 90%, to {
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1); }
+  from {
+    opacity: 0;
+    transform: translate3d(0, 3000px, 0); }
+  60% {
+    opacity: 1;
+    transform: translate3d(0, -20px, 0); }
+  75% {
+    transform: translate3d(0, 10px, 0); }
+  90% {
+    transform: translate3d(0, -5px, 0); }
+  to {
+    transform: translate3d(0, 0, 0); }
+  }
+
+@keyframes fadeOutDown {
+  from {
+    opacity: 1; }
+  to {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0); }
+  }
+
+.boton-subir{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-name: fadeOutDown;
+  background: #ffd051;
+  border: 3px solid #33ccff;
+  border-radius: 60%;
+  transition: all .5s linear;
+  height: 50px;
+  width: 50px;
+  position: fixed;
+  right: 5px;
+  bottom: 10px;
+  z-index: 999999999;
+}
+/*evento hover*/
+.boton-subir:hover{
+  box-shadow:   0px 2px 10px 0px rgba(255, 255, 255, 0.75);
+}
+/*estilos para el tag i*/
+.boton-subir i{
+  color: #33ccff;
+  font-size: 1.5em;
+}
+
 /* Adding color to the Navbar on mobile */
 @media only screen and (max-width: 768px) {
   h2, h1 {
@@ -44,9 +118,12 @@ h2, h1 {
   }
   .navbar {
     background-color: ##ffd051; }
+
+  .boton-subir {
+    height: 40px;
+    width: 40px;
+    right: 5px;
+    bottom: 5px;
+  }
+
 }
-
-
-/* Footer color for sake of consistency with Navbar */
-.page-footer {
-  background-color: #1C2331; }
