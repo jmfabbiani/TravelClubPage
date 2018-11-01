@@ -4,6 +4,14 @@ body {
   background-image: url("../img/back2.png");
   background-attachment: fixed;
 }
+
+h2, h1 {
+  text-align: left;
+  font-weight: bolder;
+  color: red;
+  text-shadow: 1px, 1px, gray;
+}
+
 .view {
   height: 100%; }
 
@@ -31,8 +39,13 @@ body {
 
 /* Adding color to the Navbar on mobile */
 @media only screen and (max-width: 768px) {
+  h2, h1 {
+    font-size: 5vw;
+  }
   .navbar {
-    background-color: ##ffd051; } }
+    background-color: ##ffd051; }
+}
+
 
 /* Footer color for sake of consistency with Navbar */
 .page-footer {
