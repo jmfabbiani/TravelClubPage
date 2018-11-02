@@ -25,6 +25,9 @@ h2, h1 {
   text-shadow: 2px, 2px, gray;
 }
 
+p {
+  text-align: justify;
+}
 .view {
   height: 100%; }
 
@@ -132,4 +135,7 @@ h2, h1 {
     bottom: 5px;
   }
 
+  .icon-tours {
+    font-size: 50%;
+  }
 }
