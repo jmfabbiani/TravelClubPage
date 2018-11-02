@@ -120,6 +120,7 @@ p {
   font-size: 1.5em;
 }
 
+
 /* Adding color to the Navbar on mobile */
 @media only screen and (max-width: 768px) {
   h2, h1 {
