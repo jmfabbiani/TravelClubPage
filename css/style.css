@@ -12,7 +12,13 @@ body {
   border-radius: 2px;
   }
 
+.icon-tours {
+  align-content: stretch;
+  color: #054c7c;
+}
+
 h2, h1 {
+  font-family: 'Pacifico', cursive;
   text-align: left;
   font-weight: bolder;
   color: #054c7c;
