@@ -12,6 +12,10 @@ body {
   border-radius: 2px;
   }
 
+.card-body .btn {
+  border-radius: 5px;
+}
+
 .icon-tours {
   align-content: stretch;
   color: #054c7c;
