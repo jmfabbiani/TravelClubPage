@@ -29,11 +29,39 @@ h2, h1 {
   text-shadow: 2px, 2px, gray;
 }
 
+.div-ofertas {
+  padding-bottom: 4px;
+}
+
 p {
   text-align: justify;
 }
 .view {
   height: 100%; }
+
+.card-text {
+  text-align: center;
+
+}
+
+.cinco-ten, .tipica, .grupos {
+  padding-top: 11px;
+  padding-bottom: 11px;
+}
+
+.cultural {
+  padding-top: 21px;
+  padding-bottom: 21px;
+}
+
+.pasadia {
+  padding-top: 11px;
+  padding-bottom: 11px;
+}
+
+.navbar.navbar-light .breadcrumb .nav-item .nav-link, .navbar.navbar-light .navbar-nav .nav-item .nav-link {
+  color: #ffffff;
+}
 
 /* Full Page Carousel itself*/
 .carousel {
@@ -46,7 +74,7 @@ p {
 
 /* Navbar animation */
 .navbar {
-  background-color: #ffd051;
+  background-color: #004a80;
 }
 
 .navbar .nav-item.avatar .dropdown-toggle img {
@@ -54,7 +82,7 @@ p {
   }
 
 .top-nav-collapse {
-  background-color: #ffd051;
+  background-color: rgba(0, 74, 128, 0.9);
  }
 
 /* Footer color for sake of consistency with Navbar */
@@ -103,8 +131,8 @@ p {
   animation-duration: 1s;
   animation-fill-mode: both;
   animation-name: fadeOutDown;
-  background: #ffd051;
-  border: 3px solid #33ccff;
+  background: #ffffff;
+  border: 3px solid #004a80;
   border-radius: 60%;
   transition: all .5s linear;
   height: 50px;
@@ -120,7 +148,7 @@ p {
 }
 /*estilos para el tag i*/
 .boton-subir i{
-  color: #33ccff;
+  color: #004a80;
   font-size: 1.5em;
 }
 
@@ -128,7 +156,7 @@ p {
 /* Adding color to the Navbar on mobile */
 @media only screen and (max-width: 768px) {
   h2, h1 {
-    font-size: 5vw;
+    font-size: 6vw;
   }
   .navbar {
     background-color: ##ffd051; }
@@ -143,4 +171,20 @@ p {
   .icon-tours {
     font-size: 50%;
   }
+
+  .cinco-ten, .tipica, .grupos {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  .cultural {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  .pasadia {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
 }
