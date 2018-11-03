@@ -112,7 +112,7 @@ p {
 /* Opera */
 -o-transform: rotate(-90deg);
 
-/* Internet Explore r */
+/* Internet Explorer */
 filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 
 }
