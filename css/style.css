@@ -81,13 +81,24 @@ p {
     height: 35px;
   }
 
+#boton-pr {
+  background: rgba(38,177,224,1);
+  background: -moz-linear-gradient(top, rgba(38,177,224,1) 0%, rgba(18,144,176,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(38,177,224,1)), color-stop(100%, rgba(18,144,176,1)));
+  background: -webkit-linear-gradient(top, rgba(38,177,224,1) 0%, rgba(18,144,176,1) 100%);
+  background: -o-linear-gradient(top, rgba(38,177,224,1) 0%, rgba(18,144,176,1) 100%);
+  background: -ms-linear-gradient(top, rgba(38,177,224,1) 0%, rgba(18,144,176,1) 100%);
+  background: linear-gradient(to bottom, rgba(38,177,224,1) 0%, rgba(18,144,176,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#26b1e0', endColorstr='#1290b0', GradientType=0 );
+}
+
 .top-nav-collapse {
   background-color: rgba(0, 74, 128, 0.9);
  }
 
 /* Footer color for sake of consistency with Navbar */
 .page-footer {
-  background-color: #1C2331; }
+  background-color: #00ade1; }
 
   /*Botón up*/
 .boton-subir.open {
