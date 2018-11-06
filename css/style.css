@@ -44,6 +44,12 @@ p {
 
 }
 
+/*Ocultar Menu Usuario*/
+#user {
+  display: none;
+}
+
+
 .cinco-ten, .tipica, .grupos {
   padding-top: 11px;
   padding-bottom: 11px;
